@@ -17,7 +17,7 @@ class SpringTestApiApplicationTests {
 		assert(userController != null);
 	}
 	@Test
-	void login_isNull() {
+	void login() {
 		String s = userController.PostLogin(new User(0,"name user 1"));
 		assert(s.equals("Hello name user 1"));
 		System.out.print(s);

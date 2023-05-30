@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserController {
     @PostMapping("/login")
     public String PostLogin(@RequestBody User user){
+
         return "Hello "+user.name;
     }
     @PostMapping("/reg")
