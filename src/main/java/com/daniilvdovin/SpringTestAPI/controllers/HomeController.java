@@ -1,5 +1,4 @@
 package com.daniilvdovin.SpringTestAPI.controllers;
-
 import org.springframework.web.bind.annotation.*;
 
 @RestController
